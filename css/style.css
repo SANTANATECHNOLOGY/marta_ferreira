@@ -91,6 +91,10 @@ a {
     cursor: pointer;
 }
 
+.ret1 {
+    display: none;
+}
+
 .bg2 {
     background-image: url('/img/bg2.jpg');
     max-width: 1440px;
@@ -280,4 +284,41 @@ a {
     display: flex;
     font-size: 1.5rem;
     color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .bg_1 {
+        background-image: url('/img/mobile/bg1.jpg');
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .chamada {
+        margin: 0;
+        text-align: center;
+        background: linear-gradient(104.8deg, #CFD3DD 11.64%, rgba(207, 211, 221, 0) 89.62%);
+        background-blend-mode: lighten;
+
+    }
+
+    .chamada h1 {
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .ret1 {
+        display: flex;
+        background: linear-gradient(104.8deg, #CFD3DD 11.64%, rgba(207, 211, 221, 0) 89.62%);
+        background-blend-mode: lighten;
+        height: 645px;
+        width: 451px;
+        margin: 0 auto;
+        top: 89px;
+        border-radius: 15px;
+        z-index: 1;
+        justify-content: center;
+        align-content: center;
+    }
+
 }
