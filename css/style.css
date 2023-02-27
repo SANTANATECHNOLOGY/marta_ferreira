@@ -462,7 +462,18 @@ a {
     }
 
 }
-
+@media screen and (max-width: 465px){
+    .chamada{
+        width: auto;
+    }
+    .chamada h1{
+        width: 100%;
+    }
+    .ret1 {
+        width: 100%;
+        left: 0;
+    }
+}
 @media screen and (max-width: 410px) {
     .chamada {
         width: auto;
