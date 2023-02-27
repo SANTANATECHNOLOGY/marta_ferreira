@@ -337,7 +337,7 @@ a {
         width: 451px;
         left: 25px;
         position: absolute;
-        top: 89px;
+        top: 30px;
         border-radius: 15px;
 
     }
@@ -352,11 +352,11 @@ a {
 
     .bg2 h1 {
         top: 50rem;
-    left: 0%;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    font-size: 4rem;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        font-size: 4rem;
 
     }
 
@@ -367,8 +367,6 @@ a {
         width: 200px;
         left: 30%;
         gap: 2rem;
-
-
     }
 
     .servicos1 {
@@ -388,6 +386,78 @@ a {
         justify-content: center;
         display: flex;
 
+    }
+
+    .bg3 {
+        background-image: url('/img/mobile/bg_3.jpg');
+        width: 100%;
+        border-bottom: #545764 15px solid;
+    }
+
+    .container h3 {
+        font-size: 1.5rem;
+    }
+
+    .container bottom {
+        width: 100%;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    .bg4 {
+        background-image: url(/img/mobile/bg_4.jpg);
+        width: 100%;
+        position: absolute;
+        top: auto;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+        left: 0;
+        background: linear-gradient(127.26deg, #CFD3DD 8.3%, rgba(207, 211, 221, 0) 97.42%);
+
+    }
+
+    .bg5 {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .ret {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .ret p {
+        line-height: 2rem;
+        font-size: 1.7rem;
+    }
+
+    .btn3 {
+        width: 50%;
+    }
+
+    .btn3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn3 button {
+        width: 50%;
+    }
+
+    .footer {
+        position: relative;
+        top: 49rem;
+    }
+    .content_footer{
+        font-size: 1rem;
     }
 
 }
