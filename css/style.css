@@ -456,8 +456,33 @@ a {
         position: relative;
         top: 49rem;
     }
-    .content_footer{
+
+    .content_footer {
         font-size: 1rem;
     }
 
+}
+
+@media screen and (max-width: 410px) {
+    .chamada {
+        width: auto;
+    }
+
+    .chamada h1 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .ret1 {
+        width: 100%;
+        left: 0;
+    }
+.imgs{
+    left: 26%;
+}
+.botãofinal{
+    position: relative;
+    top: 10%;
+    right: 7%;
+}
 }
