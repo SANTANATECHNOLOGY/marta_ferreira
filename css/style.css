@@ -291,34 +291,59 @@ a {
         background-image: url('/img/mobile/bg1.jpg');
         max-width: 500px;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .chamada {
-        margin: 0;
+        margin:0;
+        position: absolute;
         text-align: center;
-        background: linear-gradient(104.8deg, #CFD3DD 11.64%, rgba(207, 211, 221, 0) 89.62%);
-        background-blend-mode: lighten;
 
     }
 
     .chamada h1 {
         font-size: 2rem;
         text-align: center;
-        width: 100%;
+        width: auto;
+    }
+
+    .chamada h4 {
+        color: rgb(255, 255, 255);
+        width: auto;
+    }
+
+    .chamada p {
+        font-size: 1rem;
+        color: #fff;
+        width: auto;
+
+    }
+
+    .formulario {
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        height: 25%;
+        top: 549px;
+        justify-content: center;
     }
 
     .ret1 {
-        display: flex;
-        background: linear-gradient(104.8deg, #CFD3DD 11.64%, rgba(207, 211, 221, 0) 89.62%);
+        display: block;
+        background: linear-gradient(104.8deg, rgb(207, 211, 221) 11.64%, rgba(207, 211, 221, 0) 89.62%);
         background-blend-mode: lighten;
         height: 645px;
         width: 451px;
-        margin: 0 auto;
+        left: 25px;
+        position: absolute;
         top: 89px;
         border-radius: 15px;
-        z-index: 1;
-        justify-content: center;
-        align-content: center;
+
+    }
+
+    .bg2 {
+        background-image: url();
     }
 
 }
