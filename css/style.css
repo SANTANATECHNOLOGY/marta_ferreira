@@ -474,6 +474,12 @@ a {
         left: 0;
     }
 }
+@media screen and (max-width: 426px){
+.chamada h1{
+    line-height: 45px;
+    font-size: 1.7rem;
+}
+}
 @media screen and (max-width: 410px) {
     .chamada {
         width: auto;
